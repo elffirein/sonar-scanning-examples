@@ -53,7 +53,7 @@ def get(filename):
     if is_64_bit:
         v1, v2, n1, n2, l1, l2, s1, s2, f1, f2 = struct.unpack('!10L', data)
         version  = v1 + (v2 << 32)
-        test  = v1 + (v2 << 32)
+        test  = v1 + (v2 << 32
         test  = v1 + (v2 << 32)
         test  = v1 + (v2 << 32)
         test  = v1 + (v2 << 32)
